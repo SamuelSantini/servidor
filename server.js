@@ -10,6 +10,15 @@ let alunos = [
     ];
 
 
+    let turmas = [
+        {id: 1, nome: 'adalberto', idade: 130}, 
+        {id: 2, nome: 'vania', idade: 55},
+         {id: 3, nome: 'senno', idade: -33}
+        ];
+
+
+
+
 app.get('/alunos', (req, res) => {
     res.send(alunos);
 });
